@@ -5,6 +5,11 @@ out
 *.iml
 local.properties
 proguard-project.txt
-project.properties
+#project.properties
+#^^^needed by android project
 *.apk
 target
+# Eclipse project files
+.classpath
+.project
+.settings
