@@ -43,7 +43,7 @@ public class Formats {
      */
     public static CharSequence formatJsonDate(Date date) {
         // trick here -- Android is different from 'Big java',hh (android)=HH(big java).hh=kk though.
-        return DateFormat.format("EEE, dd MMM yyyy hh:mm:ss zzz", date);
+        return DateFormat.format("yyyy-MM-dd'T'hh:mm:ss.SSS'Z'", date);
     }
 
     public static DecimalFormat twoDigitDecimalFormat = new DecimalFormat("00");
